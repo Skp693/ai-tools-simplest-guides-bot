@@ -1,0 +1,26 @@
+{
+  "name": "ai-tools-simplest-guides-bot",
+  "version": "1.0.0",
+  "description": "Autonomous Bluesky agent that posts daily simple AI tool guides as threads",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "dev": "tsx src/index.ts",
+    "build-lex": "lex build"
+  },
+  "keywords": ["bluesky", "atproto", "ai", "bot", "agent"],
+  "author": "Skp693",
+  "license": "MIT",
+  "dependencies": {
+    "@atproto/lex": "^0.4.0",
+    "@atproto/lex-password-session": "^0.1.0",
+    "ai": "^4.0.0",
+    "cron": "^3.1.0",
+    "dotenv": "^16.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0"
+  }
+}

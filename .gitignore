@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.env
+used-tools.json
+*.log
+.DS_Store
+src/lexicons/
+lib/lexicons/
